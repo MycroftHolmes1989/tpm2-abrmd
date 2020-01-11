@@ -7,7 +7,7 @@ The format is based on [Keep a CHANGELOG](http://keepachangelog.com/)
 ### Added
 - Add '--enable-debug' flag to configure script to simplify debug builds.
 This relies on the AX_CHECK_ENABLE_DEBUG autoconf archive macro.
-### Canged
+### Changed
 - Replaced custom dynamic TCTI loading code with libtss2-tctildr from
 upstream tpm2-tss repo.
 ### Fixed
